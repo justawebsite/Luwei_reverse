@@ -27015,7 +27015,7 @@ H.WebSql = function() {
             h || (h = document.createElement("div"), h.className = "cover-container", e.appendChild(h));
             var i = function() {
                 navigator.notification && navigator.notification.activityStart && navigator.notification.activityStart("", "封面加载中"), window.ActivityIndicator && ActivityIndicator.show && ActivityIndicator.show("封面加载中"), f.disabled = !0;
-                a.Xhr.get("http://cover.acfunwiki.org/cover.php", null, {
+                a.Xhr.get("http://nmb.ovear.info/h.php", null, {
                     responseType: "blob",
                     timeout: 6e4,
                     cache: !0
@@ -27902,22 +27902,22 @@ H.WebSql = function() {
             Dc = [{
                 order: 1,
                 id: 4,
-                name: "综合1",
+                name: "综合版",
                 fgroup: 4
             }, {
                 order: 2,
                 id: 111,
                 name: "跑团",
-                fgroup: 4
+                fgroup: 5
             }, {
                 order: 3,
-                id: 120,
-                name: "围炉",
+                id: 98,
+                name: "DANGER_U",
                 fgroup: 4
             }, {
                 order: 4,
                 id: 19,
-                name: "小说",
+                name: "故事",
                 fgroup: 4
             }, {
                 order: 5,
@@ -27928,7 +27928,7 @@ H.WebSql = function() {
                 order: 6,
                 id: 56,
                 name: "学业",
-                fgroup: 4
+                fgroup: 2
             }],
             Ec = [{
                 order: 1,
